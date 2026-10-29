@@ -32,29 +32,17 @@ public analysis-ready aggregated and anonymized data tables;
 
 ## What is intentionally excluded
 
-- The following materials are intentionally not included in this public repository:
+The following materials are intentionally not included in this public repository:
 
 - private unblinding keys;
 
--personally identifiable information;
-
-- author contact details and private correspondence;
-
-- journal submission documents;
-
-- cover letters and editorial correspondence;
-
-- responses to reviewers;
-
-- title pages containing author information;
-
-- private human-evaluation files;
+- personally identifiable or confidential information;
 
 - credentials, API keys, access tokens, or other secrets;
 
-- restricted or sensitive research artifacts not required for public reproducibility.
+- restricted or sensitive research artifacts that are not required for public reproducibility.
 
-- The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
+The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
 
 ## Reproduce the main numerical analyses
 
