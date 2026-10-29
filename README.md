@@ -8,7 +8,7 @@ AR-CBT++ combines Arabic-variety-sensitive evaluation, safety-risk stratificatio
 
 This public repository contains only research materials required to understand, inspect, and reproduce the AR-CBT++ benchmark analyses:
 
-public analysis-ready aggregated and anonymized data tables;
+- public analysis-ready aggregated and anonymized data tables;
 
 - exact open-weight model and judge revision identifiers;
 
