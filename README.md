@@ -6,21 +6,55 @@ AR-CBT++ combines Arabic-variety-sensitive evaluation, safety-risk stratificatio
 
 ## What is included
 
-- public analysis-ready 144-item consensus and 432-rating tables;
-- exact open-weight candidate and judge revision identifiers;
-- retained unified Kaggle notebook for the three automated judges;
-- scripts for reproducing the principal numerical analyses;
+This public repository contains only research materials required to understand, inspect, and reproduce the AR-CBT++ benchmark analyses:
+
+public analysis-ready aggregated and anonymized data tables;
+
+- exact open-weight model and judge revision identifiers;
+
+- reproducibility notebooks and execution code;
+
+- scripts for reproducing the main statistical analyses;
+
 - scripts for regenerating the published figures;
-- derived tables for explicit-risk failures, critical-failure categories, composite sensitivity, and high-disagreement examples;
-- post-correction integrity and provenance audits;
-- documented candidate prompts, scoring rubric, judge prompt, and open-weight generation settings.
+
+- derived statistical tables and sensitivity analyses;
+
+- post-correction integrity and provenance audit files;
+
+- candidate-response prompts and evaluation prompts;
+
+- scoring rubric and evaluation schema;
+
+- documented generation and execution settings where available;
+
+- software environment and dependency information.
 
 ## What is intentionally excluded
 
-- the private unblinding key;
-- authentication tokens, API keys, and credentials;
-- raw high-risk dialogue text that is not necessary for public numerical verification;
-- materials whose redistribution may be restricted by model licenses, privacy, or safety considerations.
+- The following materials are intentionally not included in this public repository:
+
+- private unblinding keys;
+
+-personally identifiable information;
+
+- author contact details and private correspondence;
+
+- journal submission documents;
+
+- cover letters and editorial correspondence;
+
+- responses to reviewers;
+
+- title pages containing author information;
+
+- private human-evaluation files;
+
+- credentials, API keys, access tokens, or other secrets;
+
+- restricted or sensitive research artifacts not required for public reproducibility.
+
+- The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
 
 ## Reproduce the main numerical analyses
 
