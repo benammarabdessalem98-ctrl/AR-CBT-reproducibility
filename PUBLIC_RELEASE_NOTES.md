@@ -1,9 +1,25 @@
-# Public release notes
+# AR-CBT++ Public Reproducibility Release
 
-This repository is a public reproducibility resource for the AR-CBT++ benchmark.
+This repository provides a public version of the reproducibility materials associated with the AR-CBT++ benchmark.
 
-It is intended for researchers, developers, clinicians, auditors, and other members of the public who want to inspect the methodology, reproduce numerical analyses, regenerate figures, or examine the documented provenance and limitations of the benchmark.
+The public release includes:
 
+- anonymized analysis-ready data;
+- model and judge revision metadata;
+- reproducibility notebooks and execution code;
+- evaluation prompts and scoring documentation;
+- integrity and provenance audit records;
+- machine-readable verification outputs;
+- software environment and dependency information.
+
+The release is intended to support transparent inspection, methodological verification, and reproducibility research related to AR-CBT++.
+
+The following materials are intentionally excluded:
+
+- private unblinding keys;
+- personally identifiable or confidential information;
+- credentials, API keys, access tokens, or other secrets;
+- restricted or sensitive artifacts that are not necessary for public reproducibility.
 ## Quick start
 
 ```bash
