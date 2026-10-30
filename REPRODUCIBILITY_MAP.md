@@ -1,4 +1,4 @@
-# AR-CBT++ reproducibility map
+
 # AR-CBT++ Reproducibility Map
 
 This file provides a concise map of the public reproducibility materials available in this repository.
