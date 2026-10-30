@@ -8,35 +8,35 @@ AR-CBT++ combines Arabic-variety-sensitive evaluation, safety-risk stratificatio
 
 This public repository contains research materials required to understand, inspect, and verify the AR-CBT++ benchmark analyses:
 
-public analysis-ready anonymized data files;
+- public analysis-ready anonymized data files;
 
-exact open-weight model and judge revision identifiers;
+- exact open-weight model and judge revision identifiers;
 
-reproducibility notebooks and execution code;
+- reproducibility notebooks and execution code;
 
-post-correction integrity and provenance audit files;
+- post-correction integrity and provenance audit files;
 
-candidate-response prompts and evaluation prompts;
+- candidate-response prompts and evaluation prompts;
 
-scoring rubric and evaluation schema;
+- scoring rubric and evaluation schema;
 
-documented generation and execution settings where available;
+- documented generation and execution settings where available;
 
-software environment and dependency information;
+- software environment and dependency information;
 
-machine-readable verification outputs.
+- machine-readable verification outputs.
 
 ## What is intentionally excluded
 
 The following materials are intentionally not included in this public repository:
 
-private unblinding keys;
+- private unblinding keys;
 
-personally identifiable or confidential information;
+- personally identifiable or confidential information;
 
-credentials, API keys, access tokens, or other secrets;
+- credentials, API keys, access tokens, or other secrets;
 
-restricted or sensitive research artifacts that are not required for public reproducibility.
+- restricted or sensitive research artifacts that are not required for public reproducibility.
 
 The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
 
