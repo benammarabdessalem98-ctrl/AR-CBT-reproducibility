@@ -56,8 +56,6 @@ GPT-5.6 refers to the ChatGPT product-interface label observed during data colle
 
 ## Public-release boundary
 
-This repository supports public inspection and independent numerical verification while minimizing unnecessary publication of safety-sensitive raw text. Public numerical/categorical tables, code, derived analyses, and audits are included; sensitive raw text and the private unblinding key remain outside the repository.
+This repository supports public inspection and independent verification while minimizing unnecessary publication of safety-sensitive raw text. Public anonymized data, code, verification outputs, documentation, and audits are included; sensitive raw text and the private unblinding key remain outside the repository.
 
-## Citation
 
-Please use the citation metadata in `CITATION.cff` when citing this repository or the AR-CBT++ benchmark.
