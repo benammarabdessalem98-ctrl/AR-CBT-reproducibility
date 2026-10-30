@@ -40,38 +40,13 @@ restricted or sensitive research artifacts that are not required for public repr
 
 The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
 
-## Reproduce the main numerical analyses
-
-```bash
-pip install -r requirements.txt
-python scripts/reproduce_results.py
-```
-
-The resulting verification table is written to:
-
-`verification/main_results_check.csv`
-
-## Regenerate figures
-
-```bash
-python scripts/generate_figures.py
-```
-
-The script generates `figures/Fig1_workflow.png` through `figures/Fig6_variety_core_profiles.png` and writes the corresponding source tables to `figure_sources/`.
-
 ## Repository structure
 
-- `code/` — retained execution notebook and code excerpt
-- `data/` — public analysis-ready tables
-- `scripts/` — numerical reproduction and figure-generation scripts
-- `tables/` — derived analytical tables
-- `figures/` — generated figures
-- `figure_sources/` — source data used for figures
 - `audit/` — validation, agreement, integrity, and provenance records
-- `docs/` — generation settings, code provenance, limitations, and citation guidance
-- `verification/` — machine-readable result checks and repository validation summaries
-
-See `REPRODUCIBILITY_MAP.md` for a direct map between major reported analyses and repository artifacts.
+- `code/` — reproducibility notebook and execution code
+- `data/` — public analysis-ready anonymized data
+- `docs/` — generation settings, methodology, provenance, and reproducibility limitations
+- `verification/` — machine-readable verification outputs
 
 ## Important reproducibility limitations
 
