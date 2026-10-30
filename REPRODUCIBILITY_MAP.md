@@ -1,26 +1,22 @@
 # AR-CBT++ reproducibility map
+# AR-CBT++ Reproducibility Map
 
-This file maps major AR-CBT++ analyses to the corresponding public repository artifacts.
+This file provides a concise map of the public reproducibility materials available in this repository.
 
-| Analysis or artifact | Repository location |
+| Purpose | Repository location |
 |---|---|
-| 144 candidate-response consensus records | `data/AR_CBT_UNBLINDED_ITEM_CONSENSUS_144_CORRECTED_PUBLIC.csv` |
-| 432 judge-item ratings | `data/AR_CBT_UNBLINDED_RATINGS_432_CORRECTED_PUBLIC.csv` |
-| Three-judge item consensus | `data/AR_CBT_3_JUDGES_ITEM_CONSENSUS_144.csv` |
-| Candidate and judge revisions | `MODEL_REVISIONS.md` |
-| Candidate generation settings | `docs/CANDIDATE_GENERATION_SETTINGS.md` |
-| Explicit-risk scenario failure breakdown | `tables/Explicit_Risk_Scenario_Failures.csv` |
-| Critical-failure error categories | `tables/Critical_Failure_Error_Categories.csv` |
-| Composite-definition sensitivity | `tables/Composite_Definition_Sensitivity.csv` |
-| High-disagreement examples | `tables/High_Disagreement_Examples.csv` |
-| Same-family sensitivity | `tables/Table_U10_Qwen_Family_Sensitivity.csv` |
-| Main numerical checks | `scripts/reproduce_results.py` |
-| Figure generation | `scripts/generate_figures.py` |
-| Figure source data | `figure_sources/` |
-| Generated figures | `figures/` |
+| Automated-judge execution notebook | `code/AR-CBTpp_KAGGLE_UNIFIED_3_JUDGES.ipynb` |
+| Representative execution code | `code/Code_Execution_Excerpt.py` |
+| Public analysis-ready anonymized data | `data/` |
 | Integrity and provenance audits | `audit/` |
-| Machine-readable result checks | `verification/main_results_check.csv` |
+| Machine-readable verification outputs | `verification/` |
+| Model and judge revision identifiers | `MODEL_REVISIONS.md` |
+| Generation settings and reproducibility documentation | `docs/` |
+| Python dependencies | `requirements.txt` |
+| Licensing and reuse information | `LICENSE_NOTE.md` |
 
-## Public-release boundary
+## Scope
 
-The private unblinding key and unnecessary safety-sensitive raw dialogue text are not part of the public repository.
+The repository provides public materials for inspecting the AR-CBT++ experimental workflow, automated evaluation process, analysis-ready data, provenance records, and reproducibility checks.
+
+Private unblinding information, credentials, and restricted or sensitive artifacts are not included.
