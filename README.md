@@ -1,4 +1,4 @@
-# AR-CBT++ — Public Reproducibility Repository
+# AR-CBT++ Public Reproducibility Repository
 
 This repository provides public research code and reproducibility artifacts for AR-CBT++, a pre-clinical benchmark for evaluating large language models in Arabic CBT-style mental-health dialogue.
 
