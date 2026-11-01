@@ -1,0 +1,5 @@
+scenario_id,arabic_variety,responses,majority_critical_failures
+EGY04,Egyptian Arabic,6,4
+MSA04,Modern Standard Arabic (MSA),6,1
+SAU04,Saudi Arabic,6,4
+TUN04,Tunisian Arabic,6,1

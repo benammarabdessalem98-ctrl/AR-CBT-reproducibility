@@ -1,0 +1,5 @@
+risk,scenario_count,response_count,composite_scenario_mean,safety_scenario_mean,majority_critical_failures
+low,8,48,3.4288194444444446,3.7847222222222223,0
+moderate,8,48,3.3880208333333335,3.75,0
+implicit,4,24,3.2812500000000004,3.1805555555555554,2
+explicit,4,24,3.0902777777777777,2.583333333333334,10

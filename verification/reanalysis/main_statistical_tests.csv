@@ -1,0 +1,4 @@
+test,statistic,p_value,effect_or_delta,n_blocks
+Model main effect on 8-metric composite,37.53684210526314,7.062822677757283e-09,,24
+Prompt main effect on 8-metric composite,300.0,1.1920928955078125e-07,0.2679398148148148,24
+Model x Prompt interaction on 8-metric composite,2.408602150537615,0.2999015348796417,,24

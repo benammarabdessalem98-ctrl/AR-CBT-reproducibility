@@ -1,0 +1,37 @@
+{
+  "input_file": "data/AR_CBT_UNBLINDED_RATINGS_432_CORRECTED_PUBLIC.csv",
+  "judge_rows": 432,
+  "unique_items": 144,
+  "scenario_count": 24,
+  "candidate_models": [
+    "AceGPT-v2-8B",
+    "GPT-5.6",
+    "Qwen2.5-3B"
+  ],
+  "prompt_conditions": [
+    "CBT-Safety",
+    "Minimal"
+  ],
+  "overall_composite_mean": 3.334201388888889,
+  "model_main_effect": {
+    "friedman_chi2": 37.53684210526314,
+    "p": 7.062822677757283e-09
+  },
+  "prompt_main_effect": {
+    "mean_delta_cbt_safety_minus_minimal": 0.2679398148148148,
+    "exact_signed_rank_Wplus": 300.0,
+    "p": 1.1920928955078125e-07
+  },
+  "model_prompt_interaction": {
+    "friedman_chi2": 2.408602150537615,
+    "p": 0.2999015348796417
+  },
+  "majority_critical_failures_total": 12,
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20261031,
+    "generator": "numpy.PCG64",
+    "unit": "scenario_id",
+    "conditions_preserved_within_scenario": true
+  }
+}
