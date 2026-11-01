@@ -6,40 +6,30 @@ AR-CBT++ combines Arabic-variety-sensitive evaluation, safety-risk stratificatio
 
 ## What is included
 
-This public repository contains research materials required to understand, inspect, and verify the AR-CBT++ benchmark analyses:
+This public repository contains the research materials required to understand, inspect, and independently verify the AR-CBT++ benchmark analyses:
 
-- public analysis-ready anonymized data files;
-
+- the complete frozen 24-scenario benchmark, including scenario identifiers, Arabic variety, risk stratum, theme, cultural/context marker, and synthetic user utterances;
+- candidate responses for the evaluated systems and prompt conditions;
+- judge-level evaluation data, including scores, critical-safety-failure flags, primary-error labels, confidence values, and retained judge rationales;
+- public analysis-ready data files, including the corrected 432-row judge-rating table and 144-item consensus data;
 - exact open-weight model and judge revision identifiers;
-
-- reproducibility notebooks and execution code;
-
+- candidate-response prompts and locked evaluation prompts;
+- the complete scoring rubric, dimension-specific anchors, safety rules, output schema, and judge item template;
+- reproducibility notebooks and execution code, including the numerical reconstruction workflow;
 - post-correction integrity and provenance audit files;
-
-- candidate-response prompts and evaluation prompts;
-
-- scoring rubric and evaluation schema;
-
-- documented generation and execution settings where available;
-
+- documented generation and evaluation settings where available;
 - software environment and dependency information;
-
 - machine-readable verification outputs.
-
 ## What is intentionally excluded
 
 The following materials are intentionally not included in this public repository:
 
 - private unblinding keys;
-
 - personally identifiable or confidential information;
-
 - credentials, API keys, access tokens, or other secrets;
-
-- restricted or sensitive research artifacts that are not required for public reproducibility.
+- third-party restricted artifacts that cannot legally or contractually be redistributed.
 
 The repository is intended solely as a public scientific reproducibility resource for AR-CBT++.
-
 ## Repository structure
 
 - `audit/` — validation, agreement, integrity, and provenance records
@@ -56,6 +46,9 @@ GPT-5.6 refers to the ChatGPT product-interface label observed during data colle
 
 ## Public-release boundary
 
-This repository supports public inspection and independent verification while minimizing unnecessary publication of safety-sensitive raw text. Public anonymized data, code, verification outputs, documentation, and audits are included; sensitive raw text and the private unblinding key remain outside the repository.
+This repository supports public inspection and independent verification of the AR-CBT++ benchmark.
 
+The public release includes the complete frozen 24-scenario benchmark, synthetic user utterances, candidate responses, judge-level evaluation data and retained rationales, scoring rubrics, prompts, analysis-ready datasets, reproducibility code, verification outputs, documentation, and integrity/provenance audits.
+
+Private unblinding keys, credentials, personally identifiable or confidential information, and third-party restricted artifacts are excluded.
 
